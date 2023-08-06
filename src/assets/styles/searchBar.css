@@ -1,0 +1,10 @@
+.search-bar{
+    display: flex;
+    /* border: green 5px solid; */
+    justify-content: center;
+    height: 30px;
+    gap :10px;
+}
+input{
+    width: 250px;
+}

@@ -1,0 +1,41 @@
+
+.listOfComics{
+    display: flex;
+    flex-wrap: wrap;
+    gap :30px;
+    padding: 150px;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+ .comic-char{
+    display: flex;
+    /* border: 1px solid green; */
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap : 20px;
+    width: (100%-200px)/3;
+    
+
+    
+} 
+.comic-infos{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding : 20px;
+    text-align: center;
+}
+.comic-title{
+    font-weight: bold;
+    /* border: 1px solid pink; */
+    text-align: center;
+}
+.comic-desc{
+    width: 200px;
+    height: 300px;
+    text-align: center;
+    /* border: yellow 1px solid; */
+
+} 

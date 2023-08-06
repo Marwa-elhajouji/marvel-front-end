@@ -1,0 +1,27 @@
+.character{
+    display: flex;
+    /* border: 1px solid green; */
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap : 20px;
+    /* width: (100%-200px)/3; */
+    
+}
+.characterInfos{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding : 20px;
+}
+.char-name{
+    font-weight: bold;
+    /* border: 1px solid pink; */
+    text-align: center;
+}
+.char-desc{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    /* border: yellow 1px solid; */
+}

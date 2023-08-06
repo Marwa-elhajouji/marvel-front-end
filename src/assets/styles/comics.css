@@ -1,0 +1,16 @@
+.comic-list{
+display : flex;
+flex-wrap: wrap;
+/* border: 1px green solid; */
+justify-content: center;
+align-items: center;
+gap : 20px
+}
+.comic{
+    display: flex;
+    /* border: 1px solid Red; */
+    gap : 20px
+}
+.comic-desc{
+    width: 200px;
+}
